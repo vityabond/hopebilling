@@ -23,6 +23,6 @@ An extensive documentation is available <a href="https://github.com/vityabond/ho
 
 If you would like to support the project, consider making a donation <a href="https://www.liqpay.ua/en/checkout/card/hopebilling" target="_blank">here</a>.
 
-## LICENSE
+## License
 
 <a href="" target="_blank">MIT</a> - <b>Copyright © 2015-20 HopeBilling Developers</b>
