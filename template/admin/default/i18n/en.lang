@@ -135,7 +135,7 @@
         "Общие настройки": "General settings",
         "Настройки почты": "Main Settings",
         "Использовать php функцию mail()": "Use php mail () function",
-        "Использовать SMTP сервер": "",
+        "Использовать SMTP сервер": "Use SMTP server",
         "SMTP сервер": "Use SMTP server",
         "SMTP порт": "SMTP port",
         "Email отправителя": "Sender Email",
@@ -270,8 +270,8 @@
         "Копировать фразы:": "Copy words from:",
         "Внимание! Это действие удалит текущий перевод выбранного языка. Продолжить ?": "Attention! This action will replace all words current language. OK ? ",
         "Email сообщения": "Email messages",
-        "Email сообщения клиенту": "",
-        "Email сообщения администратору": ""
+        "Email сообщения клиенту": "Email messages to customer",
+        "Email сообщения администратору": "Email Messages to Administrator"
     },
     "views\/carcase.php": {
         "Поле обязательное к заполнению": "Field required",
@@ -798,20 +798,20 @@
         "Результаты не найдены.": "Results not found"
     },
     "views\/service\/order\/show.php": {
-        "Нет дополнительной информации": "No further information",
+        "Нет дополнительной информации": "No more information",
         "Закрыть": "Close"
     },
     "views\/ticket\/new.php": {
         "Клиент": "",
-        "Загрузка...": "",
-        "Введите логин, ФИО, телефон или Email": "",
-        "Приоритет": "",
-        "Низкий": "",
-        "Средний": "",
-        "Высокий": "",
-        "Сообщение": "",
-        "Файлы": "",
-        "Отправить": "",
-        "К списку тикетов": ""
+        "Загрузка...": "Loading...",
+        "Введите логин, ФИО, телефон или Email": "Enter login, name, phone or Email",
+        "Приоритет": "Priority",
+        "Низкий": "Low",
+        "Средний": "Medium",
+        "Высокий": "High",
+        "Сообщение": "Message",
+        "Файлы": "Files",
+        "Отправить": "Submit",
+        "К списку тикетов": "Back to Tickets"
     }
 }
