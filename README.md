@@ -25,4 +25,4 @@ If you would like to support the project, consider making a donation <a href="ht
 
 ## License
 
-<a href="" target="_blank">MIT</a> - <b>Copyright © 2015-20 HopeBilling Developers</b>
+<a href="" target="_blank">MIT</a> - <b>Copyright © 2015-2020 HopeBilling Developers</b>
