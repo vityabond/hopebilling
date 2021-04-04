@@ -19,10 +19,6 @@ The follwing integrations are presently supported -
 
 An extensive documentation is available <a href="https://github.com/vityabond/hopebilling/wiki" target="_blank">here</a>!
 
-## Donation
-
-If you would like to support the project, consider making a donation <a href="https://www.liqpay.ua/en/checkout/card/hopebilling" target="_blank">here</a>.
-
 ## License
 
 <a href="" target="_blank">MIT</a> - <b>Copyright © 2015-2020 HopeBilling Developers</b>
