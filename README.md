@@ -2,13 +2,13 @@
 
 ## About
 
-HopeBilling is an open-sorce and completely free billing system for hosting providers. It serves as an alternative to paid software while providing competent features, to ensure that you can setup your company while not worrying about the backend.
+HopeBilling is an Open Source and completely free billing system for hosting providers. It serves as an alternative to proprietary software while providing competent features, to ensure that you can setup your company while not worrying about the backend.
 
 Official site => <a href="https://hopebilling.com" target="_blank">https://hopebilling.com</a>
 
 ## Integrations
 
-The follwing integrations are presently supported - 
+The following integrations are presently supported - 
 
  - Web Hosting  (VestaCP, cPanel, ISPManager, Plesk, ISPConfig, DirectAdmin)
  - VPS/VDS (Proxmox, VMmanager)
