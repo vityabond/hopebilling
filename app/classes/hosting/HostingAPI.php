@@ -79,6 +79,9 @@ class HostingAPI
             case HostingServer::PANEL_ISPCONFIG:
                 return new ispConfig($server);
                 break;
+            case HostingServer::PANEL_MOFH:
+                return new MOFHApi($server);
+                break;				
         }
         return null;
     }

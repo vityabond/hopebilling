@@ -26,7 +26,10 @@
         "Вход": "Wejście",
         "Регистрация": "Rejestracja",
         "Билинг панель": "Billing panel",
-        "Биллинг панель": "Billing panel"
+        "Биллинг панель": "Billing panel",
+        "3-20 символов, которыми могут быть только маленькие буквы и цифры, первый символ обязательно буква": "",
+        "Введите номер телефона в международном формате (например +38(092)123-54-78)": "",
+        "Введите число больше нуля": ""
     },
     "views\/service\/order\/list.php": {
         "Дата": "Data",
@@ -44,7 +47,7 @@
         "Активный": "Aktywny"
     },
     "views\/bill\/list.php": {
-        "Дата": "Data",
+        "Дата": "Data rejestracji",
         "Услуга": "Usługa",
         "Хостинг": "Hosting",
         "Смена тарифа": "Zmiana taryfy",
@@ -61,8 +64,8 @@
         "Ожидает оплату": "Oczekuje zapłaty",
         "Отменен": "Odwołany",
         "Оплачен": "Opłacony",
-        "Действие": "",
-        "Оплатить выбранные": "Zapłacić za wybrane",
+        "Действие": "Opcje",
+        "Оплатить выбранные": "Opłać zaznaczone",
         "Результаты не найдены.": "Nie znaleziono wyników.",
         "Смена хостинг тарифа": "Zmiana hosting taryfy",
         "Оплатить": "Płacić",
@@ -75,23 +78,23 @@
         "Тариф": "Taryfa",
         "Логин": "Login",
         "Стоимость": "Cena",
-        "Конец": "Koniec",
+        "Конец": "Ważne do",
         "Осталось": "Pozostało",
         "Сервер": "Serwer",
         "Статус": "Status",
         "Активный": "Aktywny",
-        "Управление": "Zarządzanie",
-        "Панель управления": "Panel sterowania",
-        "Продлить": "Przedłużyć",
+        "Управление": "Opcje",
+        "Панель управления": "Przejdź do panelu",
+        "Продлить": "Przedłuż",
         "Счета": "Konta",
-        "Сменить тариф": "Zmiana tyryfy",
+        "Сменить тариф": "Zmień taryfę",
         "Отключен": "Wyłączony",
         "Вы уверены что хотите удалить заказ ?": "Jesteś pewien, że chcesz usunąć zamówienie?",
         "Удалить заказ": "Usuń zamówienie",
         "Результаты не найдены.": "Nie znaleziono wyników.",
-        "{0|день|дня|дней}": "{0|dzień|dnia|dni}",
-        "{1|день|дня|дней}": "{1|dzień|dnia|dni}",
-        "{%period|день|дня|дней}": "{%period|dzień|dnia|dni}"
+        "{0|день|дня|дней}": "{0|dzień|dni|dni}",
+        "{1|день|дня|дней}": "{1|dzień|dni|dni}",
+        "{%period|день|дня|дней}": "{%period|dzień|dni|dni}"
     },
     "views\/domain\/order\/list.php": {
         "Дата": "Data",
@@ -113,7 +116,7 @@
     },
     "views\/hosting\/order\/hosting.php": {
         "месяц": "miesiąc",
-        "ЗАКАЗАТЬ": "ZAMÓWIĆ"
+        "ЗАКАЗАТЬ": "Zamów"
     },
     "views\/domain\/order\/check.php": {
         "Подберите домен": "Wybierz domen",
@@ -123,7 +126,7 @@
         "Стоимость продления": "Koszt przedłużenia",
         "Домены уже кем-то занятые": "Domeny są już przez kogoś zajęte",
         "Домены доступные для заказа": "Domeny dostępne do zamówienia",
-        "Заказать": "Zamówić",
+        "Заказать": "Zamów",
         "Внимание!": "Uwaga!",
         "Возникла техническая ошибка.": "Wystąpił błąd techniczny.",
         "службу поддержки": "",
@@ -133,7 +136,7 @@
     },
     "views\/service\/select.php": {
         "месяц": "miesiąc",
-        "ЗАКАЗАТЬ": "ZAMÓWIĆ"
+        "ЗАКАЗАТЬ": "Zamów"
     },
     "views\/service\/order.php": {
         "Период оплаты": "Okres płatności",
@@ -174,7 +177,21 @@
         "Email": "E-mail",
         "SMS": "SMS",
         "Уведомлять о создании новых тикетов:": "Powiadamiaj o tworzeniu nowych ticketów:",
-        "Изменения были успешно сохранены.": "Twoje zmiany zostały pomyślnie zapisane."
+        "Изменения были успешно сохранены.": "Twoje zmiany zostały pomyślnie zapisane.",
+        "Тип:": "Rodzaj konta",
+        "Частное лицо": "Prywatne",
+        "Юридическое лицо": "Firmowe",
+        "Страна:": "",
+        "Название организации": "",
+        "Юридический адрес организации": "",
+        "Фактический адрес совпадает с юридическим": "",
+        "Фактический адрес организации": "",
+        "Руководитель организации": "",
+        "ЕГРПОУ": "",
+        "ИНН": "",
+        "Добавить документ": "",
+        "Документ ": "",
+        "Уведомлять об добавлении и изменении информации о заказе:": ""
     },
     "views\/setting\/owner\/list.php": {
         "Добавить": "Dodaj",
@@ -239,7 +256,11 @@
         "{1|день|дня|дней}": "{1|dzień|dnia|dni}",
         "{5|день|дня|дней}": "{5|dzień|dnia|dni}",
         "(тестовый период)": "(okres testowy)",
-        "{4|день|дня|дней}": "{4|dzień|dnia|dni}"
+        "{4|день|дня|дней}": "{4|dzień|dnia|dni}",
+        "Домен": "Domena",
+        "Использовать промокод": "Użyj kodu promocyjnego",
+        "Промокод": "Kod promocyjny",
+        "Промокод уже использован или недействительный": "Kod promocyjny został już wykorzystany lub jest nieprawidłowy"
     },
     "views\/support\/tickets.php": {
         "Создать обращение в службу поддержки": "Utworzyć kontakt z pomocą techniczną",
@@ -393,11 +414,11 @@
         "Toggle navigation": "Toggle navigation",
         "Вход": "Wejście",
         "Регистрация": "Rejestracja",
-        "Счета": "Konta",
-        "Заказы": "Zamówienia",
+        "Счета": "Płatności",
+        "Заказы": "Twoje usługi",
         "Хостинг": "Hosting",
         "Домен": "Domena",
-        "Создать заказ": "Utworzyć zamówienie",
+        "Создать заказ": "Nowe zamówienie",
         "Валюта": "Waluta",
         "Поддержка": "Wsparcie",
         "Настройки": "Ustawienia",
@@ -405,7 +426,7 @@
         "Выход": "Wyjście",
         "Клиенты": "Klienci",
         "Услуги": "Usługi",
-        "Сервера": "Serwera",
+        "Сервера": "Serwery",
         "Опции": "Opcje",
         "Тарифы": "Taryfy",
         "Регистрация доменов": "Rejestracja domen",
@@ -418,7 +439,9 @@
         "Сотрудники": "Pracownicy",
         "Страницы": "Strony",
         "Выйти": "Wyjść",
-        "VPS": "VPS"
+        "VPS": "VPS",
+        "Новоее сообщение": "",
+        "Тикет": ""
     },
     "views\/reminder.php": {
         "Восстановление пароля": "Odzyskiwanie hasła",
@@ -459,7 +482,7 @@
     },
     "views\/vps\/order\/new.php": {
         "месяц": "miesiąc",
-        "ЗАКАЗАТЬ": "ZAMÓWIĆ"
+        "ЗАКАЗАТЬ": "Zamów"
     },
     "views\/vps\/order\/plan.php": {
         "Выбранный хостинг тариф": "Wybrany hosting taryf",

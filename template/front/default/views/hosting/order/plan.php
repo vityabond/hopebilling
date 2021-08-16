@@ -135,6 +135,7 @@
             if (panel == <?=\model\HostingServer::PANEL_CPANEl;?> ||
                 panel == <?=\model\HostingServer::PANEL_PLESK;?> ||
                 panel == <?=\model\HostingServer::PANEL_DIRECTADMIN;?> ||
+				panel == <?=\model\HostingServer::PANEL_MOFH;?> ||
                 panel == <?=\model\HostingServer::PANEL_ISP;?>
             ){
                 $('input[name=domain]').parents('div.form-group').show();
