@@ -51,7 +51,7 @@ if(!defined('_SITE_DOMINE_')) {
     define('_SITE_DOMINE_', isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '');
 }
 
-define('_SITE_URL_', _SITE_PROTOCOL_ . _SITE_DOMINE_ );
+define('_SITE_URL_', _SITE_PROTOCOL_ . _SITE_DOMINE_);
 spl_autoload_register('core_autoload');
 function core_autoload($namespace_class)
 {

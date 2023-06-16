@@ -1,0 +1,9 @@
+{
+    "ticket\/new.php": {
+        "Получен тикет": "Ticket recibido",
+        "Получено новое обращение в службу поддержки № %ticket.": "Nuevo ticket de soporte # %ticket recibido.",
+        "Тема: ": "Asunto: ",
+        "Сообщение: ": "Mensaje: ",
+        "Открыть тикет в биллинг системе": "Abrir el ticket en el sistema"
+    }
+}

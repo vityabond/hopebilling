@@ -2,7 +2,7 @@
 
 (function () {
     if (jQuery && jQuery.fn && jQuery.fn.select2 && jQuery.fn.select2.amd)var e = jQuery.fn.select2.amd;
-    return e.define("select2/i18n/ru", [], function () {
+    return e.define("select2/i18n/es", [], function () {
         function e(e, t, n, r) {
             return e % 10 < 5 && e % 10 > 0 && e % 100 < 5 || e % 100 > 20 ? e % 10 > 1 ? n : t : r
         }

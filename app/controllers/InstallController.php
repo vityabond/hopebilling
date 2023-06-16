@@ -19,6 +19,7 @@ class InstallController
         $this->languages = array(
             1 => (object)array('iso_code' => 'ru', 'name' => 'Русский', 'id' => 1),
             2 => (object)array('iso_code' => 'en', 'name' => 'English', 'id' => 2),
+            12 => (object)array('iso_code' => 'es', 'name' => 'Español', 'id' => 12),
             10 => (object)array('iso_code' => 'de', 'name' => 'Deutsch', 'id' => 10),
             4 => (object)array('iso_code' => 'ukr', 'name' => 'Українська', 'id' => 4),
             8 => (object)array('iso_code' => 'da', 'name' => 'Danish', 'id' => 8),
@@ -157,6 +158,7 @@ class InstallController
                         ->text('browser', 30)
                         ->timestamp('date');
                 });
+
                 Schema::create('client_reminder_codes', function (Table $table) {
                     $table
                         ->increment('id')
@@ -653,6 +655,13 @@ class InstallController
                     $language->save();
                 }
 
+
+                if(!$language->where('iso_code', 'es')->getRow()) {
+                    $language           = new Languages();
+                    $language->name     = 'Español';
+                    $language->iso_code = 'es';
+                    $language->save();
+                }
 
                 if(!$language->where('iso_code', 'en')->getRow()) {
                     $language           = new Languages();

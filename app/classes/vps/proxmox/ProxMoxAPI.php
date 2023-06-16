@@ -11,7 +11,7 @@ class ProxMoxAPI extends VPSAPI implements IVPSAPI{
 
     private $pve = null;
 
-    private  $realm     = 'pam';
+    private  $realm     = 'pve';
 
     private $is_logged = false;
     public function __construct($server)

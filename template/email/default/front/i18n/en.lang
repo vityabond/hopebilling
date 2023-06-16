@@ -19,7 +19,7 @@
         "Детальная информация нового аккаунта:": "Detailed information of new account:",
         "Адрес хостиг панели:": "The URL of the hosting panel:",
         "Спасибо Вам за то, что выбрали нас!": "Thank You for choosing us!",
-        "Адрес хостинг панели:": ""
+        "Адрес хостинг панели:": "Hosting panel address:"
     },
     "client\/reminder.php": {
         "Для смены пароля перейдите по ссылке:": "To change the password, go to:",
@@ -35,7 +35,13 @@
     "bill\/pay.php": {
         "Счет №%id оплачен": "Invoice # %id has been paid",
         "Счет №%id успешно оплачен.": "Invoice # %id has been paid successfully.",
-        "Спасибо!": "Thank you!"
+        "Спасибо!": "Thank you!",
+        "Уважаемый(ая) %client": "Dear %client",
+        "Спасибо Вам за то, что выбрали нас!": "Thank you for choosing us!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "Do not reply to this email, it was sent automatically.",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "If you have any questions or suggestions, send them to %email",
+        "Мы постараемся Вам помочь.": "We will try to help you.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "You received this email because you are a client of %sitename"
     },
     "hosting_account\/end.php": {
         "Уважаемый, %client": "Dear, %client",
@@ -70,7 +76,14 @@
         "Вы успешно зарегистрировались в биллинг системе.": "You have been successfully registered in the billing system.",
         "Ваш логин:": "Your username:",
         "Ваш пароль:": "Your password:",
-        "Спасибо": "Thank you"
+        "Спасибо": "Thank you",
+        "Имя пользователя:": "Username:",
+        "Пароль:": "Password:",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "If you have any questions or suggestions, send them to %email",
+        "Мы постараемся Вам помочь.": "We will try to help you.",
+        "Спасибо Вам за то, что выбрали нас!": "Thank you for choosing us!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "Do not reply to this email, it was sent automatically.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "You received this email because you are a client of %sitename"
     },
     "bill\/multi_pay.php": {
         "Оплата счетов": "Payment of invoices",
@@ -79,12 +92,12 @@
     "ticket\/new.php": {
         "Ваш тикет отправлен": "Your ticket has been sent",
         "Обращение № %ticket отправлено в службу поддержки.": "Ticket # %ticket has been sent to support.",
-        "Уважаемый(ая) %client": "",
-        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "",
-        "Мы постараемся Вам помочь.": "",
-        "Спасибо Вам за то, что выбрали нас!": "",
-        "Не отвечайте на это письмо, оно отправлено автоматически.": "",
-        "Вы получили это письмо, потому что являетесь клиентом %sitename": ""
+        "Уважаемый(ая) %client": "Dear %client",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "If you have any questions or suggestions, send them to %email",
+        "Мы постараемся Вам помочь.": "We will try to help you.",
+        "Спасибо Вам за то, что выбрали нас!": "Thank you for choosing us!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "Do not reply to this email, it was sent automatically.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "You received this email because you are a client of %sitename"
     },
     "ticket\/new_answer.php": {
         "К Вашему тикету получен новй ответ": "Received a new reply to the ticket.",

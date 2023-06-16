@@ -1,0 +1,117 @@
+{
+    "bill\/new.php": {
+        "Уважаемый %client": "Estimado %client",
+        "Это уведомление о том, что счет №%id создан %date.": "Esta notificación le informa que su cuenta No.%id ha sido creada el %date.",
+        "Счет №%id": "Factura #%id",
+        "Сумма: %summ": "Monto: %summ",
+        "Вы можете просмотреть и оплатить счет перейдя по ссылке ниже:": "Puede ver y pagar su cuenta haciendo click en el siguiente enlace:",
+        "Перейти к оплате": "Go to payment",
+        "Вам выставлен счет на оплату": "Tiene una factura para pagar"
+    },
+    "hosting_account\/new.php": {
+        "Ваш хостинг аккаунт создан": "Su cuenta de alojamiento ha sido creada",
+        "Адрес:": "URL:",
+        "Логин:": "Usuario:",
+        "Пароль:": "Contraseña:",
+        "Доступ к биллинг панели:": "Acceso al panel de facturación:",
+        "Ваш хостинговый аккаунт создан": "Su cuenta de alojamiento ha sido creada",
+        "Ваш хостинговый аккаунт создан и это письмо содержит всю необходимую информацию для работы с Вашим аккаунтом.": "Se ha creado su cuenta de alojamiento y este correo electrónico contiene toda la información necesaria para su cuenta.",
+        "Детальная информация нового аккаунта:": "Información detallada de la nueva cuenta:",
+        "Адрес хостиг панели:": "La URL del panel de alojamiento:",
+        "Спасибо Вам за то, что выбрали нас!": "Gracias por elejirnos!",
+        "Адрес хостинг панели:": "La URL del panel de alojamiento:"
+    },
+    "client\/reminder.php": {
+        "Для смены пароля перейдите по ссылке:": "Para cambiar la contraseña vaya a:",
+        "Восстановление пароля": "Restablecimiento de contraseña"
+    },
+    "client\/reminder_password.php": {
+        "Ваш новый пароль:": "Su nueva contraseña:",
+        "Восстановление пароля": "Restablecimiento de contraseña"
+    },
+    "subjects": {
+        "Ваш хостинг аккаунт создан": "Su cuenta de alojamiento ha sido creada"
+    },
+    "bill\/pay.php": {
+        "Счет №%id оплачен": "La factrua # %id ha sido pagada",
+        "Счет №%id успешно оплачен.": "La factura # %id ha sido pagada exitosamente.",
+        "Спасибо!": "Gracias!",
+        "Уважаемый(ая) %client": "Estimado %client",
+        "Спасибо Вам за то, что выбрали нас!": "Gracias por elejirnos!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "No responda a este correo. Fue enviado automáticamente.",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "Preguntas y sugerencias dirigirlas a %email",
+        "Мы постараемся Вам помочь.": "Intentaremos ayudarlo.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "Ud. recibió este correo por ser un cliente de %sitename"
+    },
+    "hosting_account\/end.php": {
+        "Уважаемый, %client": "Estimado, %client",
+        "Напоминание об оплате счета": "Notificación sobre el pago de las facturas",
+        "Осталось меньше %days {%days|%words} до блокировки хостинг аккаунта.": "Menos de %days {%days|%words} hasta el bloqueo de su cuenta de alojamiento.",
+        "дня|дней|дней": "día|días",
+        "Это напоминание о том, что Ваш хостинг аккаунт # %id будет заблокирован": "Esta notificación le informa que su cuenta de alojamiento # %id será bloqueada"
+    },
+    "hosting_account\/suspend.php": {
+        "Ваш хостинг аккаунт отключен": "Su cuenta de alojamiento ha sido desactivada",
+        "Уважаемый, %client": "Dear, %client",
+        "Ваш хостинг аккаунт №%id отключен.": "Su cuenta de alojamiento # %id ha sido desactivada",
+        "Пожалуйста, свяжитесь с нами если у Вас возникли вопросы.": "Por favor contáctenos si tiene preguntas."
+    },
+    "hosting_account\/unsuspend.php": {
+        "Ваш хостинг аккаунт активирован": "Su cuenta de alojamiento ha sido activada",
+        "Уважаемый, %client": "Dear, %client",
+        "Ваш хостинг аккаунт №%id активирован.": "Su cuenta de alojamiento # %id ha sido activada .",
+        "Пожалуйста, свяжитесь с нами если у Вас возникли вопросы.": "Por favor contáctenos si tiene preguntas."
+    },
+    "employee\/reminder.php": {
+        "Восстановление пароля": "Restablecimiento de contraseña",
+        "Для смены пароля перейдите по ссылке:": "Para cambiar su contraseña, vaya a:"
+    },
+    "employee\/reminder_password.php": {
+        "Восстановление пароля": "Restablecimiento de contraseña",
+        "Ваш новый пароль:": "Su nueva contraseña:"
+    },
+    "client\/reg.php": {
+        "Регистрация": "Registración",
+        "Здравствуйте,": "Hola,",
+        "Вы успешно зарегистрировались в биллинг системе.": "Se ha registrado correctamente en el sistema de facturación.",
+        "Ваш логин:": "Su usuario:",
+        "Ваш пароль:": "Su contraseña:",
+        "Спасибо": "Gracias",
+        "Имя пользователя:": "Usuario:",
+        "Пароль:": "Contraseña:",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "Si tiene preguntas o sugerencias, diríjalas a %email",
+        "Мы постараемся Вам помочь.": "Trataremos de ayudarlo.",
+        "Спасибо Вам за то, что выбрали нас!": "Gracias por elejirnos!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "No responda a este correo, fue enviado automáticamente.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "Ud. recibió este correo, por ser un cliente de %sitename"
+    },
+    "bill\/multi_pay.php": {
+        "Оплата счетов": "Pago de facturas",
+        "Счета № %bills были успешно оплачены.": "Las facturas # %of han sido pagadas correctamente."
+    },
+    "ticket\/new.php": {
+        "Ваш тикет отправлен": "Su ticket ha sido enviado",
+        "Обращение № %ticket отправлено в службу поддержки.": "El ticket # %ticket ha sido enviado a soporte.",
+        "Уважаемый(ая) %client": "Estimado %client",
+        "Если у вас возникли вопросы или пожелания, присылайте их на %email": "Si tiene preguntas o sugerencias, diríjalas a %email",
+        "Мы постараемся Вам помочь.": "Trataremos de ayudarlo.",
+        "Спасибо Вам за то, что выбрали нас!": "Gracias por elejirnos!",
+        "Не отвечайте на это письмо, оно отправлено автоматически.": "No responda a este correo, fue enviado automáticamente.",
+        "Вы получили это письмо, потому что являетесь клиентом %sitename": "Ud. recibió este correo, por ser un cliente de %sitename"
+    },
+    "ticket\/new_answer.php": {
+        "К Вашему тикету получен новй ответ": "Ha recibido una nueva respuesta en el ticket.",
+        "Получен новый ответ к тикету.": "Ha recibido una nueva respuesta en el ticket.",
+        "Посмотреть ответ можно по ссылке:": "Vea la respuesta en el enlace:"
+    },
+    "ticket\/change_status.php": {
+        "Статус тикета был изменен": "El estado del ticket ha cambiado",
+        "Статус тикета №%id изменен администратором.": "El estado del ticket # %id fue cambiado por el administrador.",
+        "Посмотреть тикет можно по ссылке:": "Vea aquí el ticket:"
+    },
+    "ticket\/change_priority.php": {
+        "Приоритет тикета был изменен": "La prioridad del ticket ha cambiado",
+        "Приоритет тикета № %id изменен администратором.": "La prioridad del ticket # %id fue cambiada por el administrador.",
+        "Посмотреть тикет можно по ссылке:": "Vea el ticket aquí:"
+    }
+}

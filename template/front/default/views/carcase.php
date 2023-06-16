@@ -39,20 +39,20 @@
 
     <script>
         var validate_messages = {
-            required: "<?=$_->l('Поле обязательное к заполнению')?>",
-            username: "<?=$_->l('3-20 символов, которыми могут быть буквы и цифры, первый символ обязательно буква')?>",
-            hosting_username: "<?=$_->l('3-20 символов, которыми могут быть только маленькие буквы и цифры, первый символ обязательно буква')?>",
-            email: "<?=$_->l('Введите правильный email')?>",
-            pass: "<?=$_->l('Строчные и прописные латинские буквы, цифры, спецсимволы. Минимум 4 символов.')?>",
-            pass2: "<?=$_->l('Повторите ввод пароля')?>",
-            fio: "<?=$_->l('Введите фамилию и имя')?>",
-            ajax: "<?=$_->l('Значение занято')?>",
-            phone: "<?=$_->l('Введите номер телефона в международном формате (например +380921235478)')?>",
-            phone_new : "<?=$_->l('Введите номер телефона в международном формате (например +38(092)123-54-78)')?>",
-            date: "<?=$_->l('Дата в формате: 2015-06-18')?>",
-            domain: "<?=$_->l('Введите доменное имя')?>",
-            possitive_number: "<?=$_->l('Введите число больше нуля')?>",
-            valid: "<?=$_->l('Поле заполнено правильно!')?>"
+            required: 'Campo requerido', //Поле обязательное к заполнению
+            username: '3-20 caracteres, solo letras o números, de los cuales el primero debe ser una letra', //3-20 символов, которыми могут быть буквы и цифры, первый символ обязательно буква
+            hosting_username: '3-20 letras minúsculas o números, de los cuales el primero debe ser una letra', //3-20 символов, которыми могут быть только маленькие буквы и цифры, первый символ обязательно буква
+            email: 'Por favor ingrese una dirección de email válida', //Введите правильный email
+            pass: 'Letras latinas mayúsculas o minúsculas números, caracteres especiales. Mínimo 4 caracteres', //Строчные и прописные латинские буквы, цифры, спецсимволы. Минимум 4 символов.
+            pass2: 'Re-ingrese su contraseña', //Повторите ввод пароля
+            fio: 'Tres palabras separadas con un espacio', //Три слова разделенные пробелом
+            ajax: 'El valor no está disponible. Ya está usado.', //Значение занято
+            phone: 'Ingrese el teléfono en formato internacional (por ejemplo +541141235478)', //Введите номер телефона в международном формате (например +380921235478)
+            phone_new: 'Ingrese el teléfono en formato internacional (por ejemplo +38 (092) 123-54-78)', //Введите номер телефона в международном формате (например +38(092)123-54-78)
+            date: 'Fecha en formato: 2015-06-18', //Дата в формате: 2015-06-18
+            domain: 'Ingrese el nombre del dominio', //Введите доменное имя
+            possitive_number: 'Por favor ingrese un número mayor que cero', //Введите число больше нуля
+            valid: 'El campo se completó correctamente!' //Поле заполнено правильно!
         };
     </script>
     <script>

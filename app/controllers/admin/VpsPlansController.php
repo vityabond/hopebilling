@@ -128,7 +128,7 @@ class VpsPlansController extends FrontController{
         $view->plan     = $Plan;
         $view->servers  = VpsServer::factory()->getRows();
 
-            $view->details   = VpsPlanDetail::factory()->getRows();
+        $view->details   = VpsPlanDetail::factory()->getRows();
 
 
         //not working
